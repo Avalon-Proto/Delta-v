@@ -14,12 +14,12 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Impstation/Objects/Weapons/Guns/Projectiles/energybolts.rsi
     layers:
-    - state: omnilaser_greyscale
+    - state: medium
       shader: unshaded
-      color: red
   - type: Ammo
+    muzzleFlash: MuzzleFlashEffectEnergySmall
   - type: Fixtures
     fixtures:
       projectile:
@@ -102,6 +102,11 @@
     damage:
       types:
         Heat: 45
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Projectiles/energybolts.rsi
+    layers:
+    - state: heavy
+      shader: unshaded
 
 - type: entity
   parent: BulletEnergyGunLaser
@@ -115,6 +120,11 @@
     damage:
       types:
         Heat: 8
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Projectiles/energybolts.rsi
+    layers:
+    - state: light
+      shader: unshaded
 
 - type: entity
   parent: BulletEnergyGunLaser
