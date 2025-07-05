@@ -43,8 +43,8 @@
   - type: Engraveable
 
 - type: entity
-  id: CartridgeBazookaInc
-  name: Leviathan incendiary rocket
+  id: CartridgeBazookaCls
+  name: Leviathan cluster rocket
   parent: CartridgeBazookaExp
   description: Guaranteed to ruin someone's day.
   components:
@@ -54,7 +54,7 @@
   - type: Item
     size: Small
   - type: CartridgeAmmo
-    proto: BulletBazookaInc
+    proto: ClusterMissileSpread
     deleteOnSpawn: true
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Projectiles/bazooka.rsi

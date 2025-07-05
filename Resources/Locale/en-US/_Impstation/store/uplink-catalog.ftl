@@ -17,11 +17,11 @@ uplink-echion-synth-name = Echion synthesizer
 uplink-echion-synth-desc = An advanced catalyser that produces Echion at a steady rate while powered. Compatible with the Adder and Akurra
 
 uplink-rocketexp-name = Leviathan explosive rocket bundle
-uplink-rocketexp-desc = A box containing 3 explosive rockets compatible with the Leviathan.
+uplink-rocketexp-desc = A box containing 4 explosive rockets compatible with the Leviathan.
 
-uplink-rocketinc-name = Leviathan incendiary rocket bundle
-uplink-rocketinc-desc = A box containing 3 incendiary rockets compatible with the Leviathan.
+uplink-rocketcls-name = Leviathan cluster rocket bundle
+uplink-rocketcls-desc = A box containing 4 cluster rockets compatible with the Leviathan.
 
 uplink-rocketcon-name = Leviathan concussion rocket bundle
-uplink-rocketcon-desc = A box containing 3 concussion rockets compatible with the Leviathan.
+uplink-rocketcon-desc = A box containing 4 concussion rockets compatible with the Leviathan.
 

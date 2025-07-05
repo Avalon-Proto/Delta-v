@@ -137,3 +137,41 @@
     damage:
       types:
         Piercing: 20
+
+- type: entity
+  parent: BaseBulletTrigger
+  name: cluster missile
+  id: ClusterMissile
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 5
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+    intensitySlope: 5
+    totalIntensity: 50
+    canCreateVacuum: false
+  - type: PointLight
+    radius: 1.5
+    color: orange
+    energy: 0.5
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Projectiles/bazooka.rsi
+    layers:
+      - state: incendiaryproj
+    scale: .25
+
+- type: entity
+  name: cluster missile spread
+  id: ClusterMissileSpread
+  categories: [ HideSpawnMenu ]
+  parent: ClusterMissile
+  components:
+  - type: ProjectileSpread
+    proto: ClusterMissile
+    count: 5
+    spread: 45
